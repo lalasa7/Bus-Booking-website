@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0;
+            background-color: black;
+        }
+        img{
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            z-index: -1;
+        }
+        h1{
+            margin-top: 100px;
+            padding-left: 100px;
+            font-size:100px ;
+            color: #fff;
+        }
+        h3{
+            padding-left: 100px;
+            font-size: 100px;
+            color: #fff;
+        }
+        nav h2{
+            color: white;
+            font-weight: bold;
+            font-size: 28px;
+            color: white;
+            cursor: pointer;
+            margin-left: 40px;
+        }
+        nav{
+            display: flex;
+            position: sticky;
+            top:0;
+            align-items: center;
+            justify-content: space-between;
+            justify-content: center;
+            padding-right: 15%;
+            padding-left: 10%;
+            margin-left: 0px;
+            margin-right: 0px;
+            box-sizing: border-box;
+            background-color: rgb(0,0,0,0.7);
+            background: transparent;
+            }
+        nav ul{
+            margin-left: 220px;
+        }
+        nav ul li{
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            list-style-type: none;
+            display: inline-block;
+            padding: 10px 20px;
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            
+        }
+        nav ul li a:hover{
+            color: white;
+            transition: 0.3s;
+            box-shadow: 0px 0px 40px;
+        }
+        button{
+            color: white;
+            background-color: blue;
+            border: none;
+            border-radius: 30px;
+            padding: 7px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-weight: bold;
+            transition: .4s;
+        }
+        nav button{
+            margin-left: 188px;
+        }
+        button:hover{
+            transform: scale(1.1);
+            box-shadow: 0px 0px 50px blue;
+        }
+        h1{
+            z-index: -100px;
+        }
+        #btn{
+            margin-left: 650px;
+            padding-left: 70px;
+            padding-right: 70px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+       
+    </style>
+</head>
+<body>
+    <nav>
+        <h2 class="logo">Kasper</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <button><a href="index.html" style="color: #fff; text-decoration: none;">Signup</a></button>
+    </nav>
+    <h1>Traveling !!</h1>
+    <h3>In Confortable Buses</h3>
+    <h1>Kasper Buses</h1>
+    <img src="background3.png">
+    <button id="btn"><a href="index.html" style="color: #fff; text-decoration: none;">Book Now</a></button>
+</body>
+</html>
